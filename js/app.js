@@ -11,4 +11,14 @@ if(questionOne === 'Y' ) {
 }
 console.log('the users answer is ' + questionOne);
 
-var questionTwo = prompt('is pizza my favorite italian food?').toUpperCase;
+var questionTwo = prompt('is pizza my favorite italian food? - Remember, use Y or N for your answers').toUpperCase;
+
+if(questionTwo === 'Y') {
+    alert('You are correct! Pizza is my favorite Italian food')
+} else if (questionTwo == 'N') {
+    alert('Unfortunate guess - Pizza is my favorite Italian food')
+} else {
+    alert('You entered the wrong answer! Try again');
+}
+
+console.log(questionTwo + ' is his favorite Italian food!')
