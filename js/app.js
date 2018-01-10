@@ -45,7 +45,7 @@ if(questionFour === 'Y') {
 };
 console.log('Yes, he was born in ' + questionFour);
 
-var questionFive = prompt('Do you like entrepreneurship? - Remember, use Y or N to answer').toLocaleLowerCase();
+var questionFive = prompt('Do you like entrepreneurship? - Remember, use Y or N to answer').toUpperCase();
 
 if(questionFive === 'Y') {
     alert('Yes, I don\'t just like entrepreneurship, i\'m nerdy and obssesed with it.');
