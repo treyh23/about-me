@@ -1,3 +1,6 @@
+body {
+    background-color: #f1f1f1
+}
 h1 {
     color: rgba(35, 31, 255, 0.527);
     text-align: center;
@@ -11,5 +14,7 @@ h3 {
 }
 
 ol {
-    text-align: center;
+    width: 300px;
+    margin: auto;
+    
 }
