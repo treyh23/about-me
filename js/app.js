@@ -45,3 +45,13 @@ if(questionFour === 'Y') {
 };
 console.log('Yes, he was born in ' + questionFour);
 
+var questionFive = prompt('Do you like entrepreneurship? - Remember, use Y or N to answer').toLocaleLowerCase();
+
+if(questionFive === 'Y') {
+    alert('Yes, I don\'t just like entrepreneurship, i\'m nerdy and obssesed with it.');
+} else if (questionFive === 'N') {
+    alert('oh whoa, you need to get to know me some more. This is the wrong answer');
+} else {
+    alert('did you write your answer in the right format?');
+};
+console.log('If you couldn\'t tell ' + questionFive + ' he does like entrepreneurship');
