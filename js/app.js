@@ -30,6 +30,18 @@ if(questionThree === 'Y') {
     alert('Wrong answer :(');
 } else {
     alert('did you enter the right type of answer??');
-}
+};
 
 console.log('the gentleman that wrote this program, his name is ' + questionThree)
+
+var questionFour = prompt('Were you born in Florida? - Remember, answer using Y or N').toLocaleUpperCase();
+
+if(questionFour === 'Y') { 
+    alert('You are incorrect');
+} else if (questionFour === 'N') {
+    alert('You are right! I was born in Philadelphia');
+} else {
+    alert('You didnt answer in the right format :/');
+};
+console.log('Yes, he was born in ' + questionFour);
+
