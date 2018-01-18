@@ -18,3 +18,7 @@ ol {
     margin: auto;
     
 }
+
+nav li {
+  text-decoration: none;
+}
